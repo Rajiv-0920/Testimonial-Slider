@@ -46,7 +46,7 @@ The source code for this project is available on [GitHub](https://github.com/Raj
 
 ## Credits
 
-- **Design and Development**: [Your Name](https://github.com/your-username)
+- **Design and Development**: [Rajiv Kumar](https://github.com/rajiv-0920)
 - **Font**: [Signika Font](https://fonts.google.com/specimen/Signika)
 - **Inspiration and Resources**: CSS Tricks for responsive design techniques.
 
