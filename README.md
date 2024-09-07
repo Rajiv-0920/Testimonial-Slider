@@ -1,6 +1,6 @@
 # Testimonials Slider
 
-![Testimonials Slider Example](./design/testimonial.png)
+![Testimonials Slider Example](./design/Testimonial.png)
 
 ## Project Description
 
