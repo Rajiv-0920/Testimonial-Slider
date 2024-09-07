@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+:root {
+    --gray: #364F6B;
+    --black: #1d0e33;
+    /* Font Family */
+    --signika: "Signika", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: var(--signika);
+    background: linear-gradient(45deg, #1d0e33, #300e33, #330e24);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.testimonials-container {
+    width: 90vw;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* 750px = 46.875em */
+@media (min-width: 46.875em) {
+    .testimonials-container {
+        width: 650px;
+    }
+}
+
+.testimonial {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    flex-shrink: 0;
+    transition: 0.5s;
+    /* transform: translate(-1260px); 630px each*/
+}
+
+.testimonial-img img {
+    border-radius: 50%;
+    max-width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.testimonials-text {
+    font-size: 1.3rem;
+    color: var(--black);
+    line-height: 1.4;
+}
+
+.testimonials-name {
+    text-align: right;
+    color: var(--gray);
+}
