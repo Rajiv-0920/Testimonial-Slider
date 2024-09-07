@@ -6,7 +6,7 @@
 
 The Testimonials Slider is a responsive web component designed to elegantly display customer feedback. This slider automatically transitions between different testimonials, providing a smooth and engaging user experience. Built with HTML, CSS, and JavaScript, it adapts to various screen sizes and can be easily customized to fit different design needs.
 
-You can view the live demo of the project [here](https://rajiv-0920.github.io/Testimonials-Slider/).
+You can view the live demo of the project [here](https://rajiv-0920.github.io/Testimonial-Slider/).
 
 The source code for this project is available on [GitHub](https://github.com/Rajiv-0920/Testimonial-Slider.git).
 
